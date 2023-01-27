@@ -1,0 +1,41 @@
+.btn-danger:hover{
+ 
+    background-color: green;
+   
+
+}
+
+.btn-danger{
+    font-size: 24px;
+}
+
+h1{
+
+    font-size: 28px  !important;
+
+}
+
+canvas{
+
+   
+
+    animation-name: amima;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes amima{
+
+    from{
+        box-shadow: 3px 3px 52px palevioletred;
+    }
+
+    to{
+        box-shadow: 3px 3px 52px rgb(12, 35, 207);
+    }
+
+
+}
+
